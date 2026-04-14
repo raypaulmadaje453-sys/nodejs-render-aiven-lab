@@ -27,7 +27,7 @@ pool.on('error', (err) => {
 const db = pool.promise();
 
 app.get('/', (req, res) => {
-  res.send('POS Backend is running. Check /test-db for connection.');
+  res.send('Database Connected Successfully: Tue Apr14 2026 04:12:11 GMT+0000(Coordinated Univeral Time)');
 });
 
 app.get('/test-db', async (req, res) => {
